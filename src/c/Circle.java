@@ -14,7 +14,7 @@ public class Circle implements Shape {
 	}
 
 	public double area() {
-		return 2*Math.PI*radius;
+		return 2*Math.PI*radius*radius;
 	}
 	
 	public double getradius() {
